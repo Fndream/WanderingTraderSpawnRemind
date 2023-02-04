@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "wandering-trader-spawn-remind",
+  "version": "${version}",
+  "name": "Wandering Trader Spawn Remind",
+  "description": "Reminder when a wandering trader spawns",
+  "authors": [
+    "Fndream"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.fndream.wanderingtraderspawnremind.Main"
+    ]
+  },
+  "mixins": [
+    "wandering-trader-spawn-remind.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.17.*"
+  }
+}
