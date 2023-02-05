@@ -7,7 +7,11 @@
   "authors": [
     "Fndream"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "https://github.com/Fndream/WanderingTraderSpawnRemind",
+    "sources": "https://github.com/Fndream/WanderingTraderSpawnRemind",
+    "issues": "https://github.com/Fndream/WanderingTraderSpawnRemind/issues"
+  },
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
